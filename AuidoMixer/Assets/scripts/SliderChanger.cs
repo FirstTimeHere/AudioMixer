@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,8 +7,6 @@ public class SliderChanger : MonoBehaviour
     [SerializeField] private Sprite _spriteMinValue;
     [SerializeField] private Sprite _spriteDefaultValue;
     [SerializeField] private Sprite _spriteMaxValue;
-
-    [SerializeField] private Image _background;
 
     private Slider _slider;
 
@@ -28,7 +23,6 @@ public class SliderChanger : MonoBehaviour
     private void Update()
     {
         ChangeSprite();
-        ChangeColor();
     }
 
     private void ChangeSprite()
@@ -39,10 +33,5 @@ public class SliderChanger : MonoBehaviour
             _slider.image.sprite = _spriteDefaultValue;
         else if (_slider.value >= _maxChangeValue || _slider.value == _maxValue)
             _slider.image.sprite = _spriteMaxValue;
-    }
-
-    private void ChangeColor()
-    {
-        _background.color = Color.Lerp(Color.white, Color.green, _slider.value);
     }
 }

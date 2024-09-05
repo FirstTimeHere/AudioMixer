@@ -1,60 +1,46 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class Music : MonoBehaviour
 {
-    [SerializeField] private AudioSource _backgroundMusic;
-    [SerializeField] private AudioSource _firstMusic;
-    [SerializeField] private AudioSource _secondMusic;
-    [SerializeField] private AudioSource _thirdMusic;
+    [SerializeField] private AudioMixerGroup _audioMixer;
 
-    [SerializeField] private Slider _sliderAllMusic;
-    [SerializeField] private Slider _sliderButtonsMusic;
-    [SerializeField] private Slider _sliderBackgroundMusic;
+    private const string _masterVolume = "MasterVolume";
+    private const string _backgroundVolume = "BackgroundVolume";
+    private const string _buttonsVolume = "ButtonsVolume";
 
-    private List<AudioSource> _allMusic = new List<AudioSource>();
+    private bool _isPlaying = true;
 
-    private bool _isPlaying;
+    private float _minValueMixerDB = -80;
+    private float _maxValueMixerDB = 0;
+    private float _multiplier = 20;
 
-    private void Awake()
-    {
-        _allMusic.Add(_backgroundMusic);
-        _allMusic.Add(_firstMusic);
-        _allMusic.Add(_secondMusic);
-        _allMusic.Add(_thirdMusic);
-    }
-
-    public void MuteMusic()
+    public void ClickButtonOnOff()
     {
         _isPlaying = !_isPlaying;
 
-        for (int i = 0; i < _allMusic.Count; i++)
-        {
-            _allMusic[i].mute = _isPlaying;
-        }
+        if (_isPlaying)
+            _audioMixer.audioMixer.SetFloat(_masterVolume, _maxValueMixerDB);
+        else
+            _audioMixer.audioMixer.SetFloat(_masterVolume, _minValueMixerDB);
     }
 
-    public void ChangeVolumeMusic()
+    public void ChangeVolumeAllMusic(Slider slider)
     {
-        for (int i = 0; i < _allMusic.Count; i++)
-        {
-            _allMusic[i].volume = _sliderAllMusic.value;
-        }
+        _audioMixer.audioMixer.SetFloat(_masterVolume, Mathf.Log10(slider.value) * _multiplier);
+    }
+    public void ChangeVolumeBackgroundMusic(Slider slider)
+    {
+        _audioMixer.audioMixer.SetFloat(_backgroundVolume, Mathf.Log10(slider.value) * _multiplier);
+    }
+    public void ChangeVolumeButtonsMusic(Slider slider)
+    {
+        _audioMixer.audioMixer.SetFloat(_buttonsVolume, Mathf.Log10(slider.value) * _multiplier);
     }
 
-    public void ChangeVolumeButtonsMusic()
+    public void PlayAudioButton(AudioSource audioSource)
     {
-        for (int i = 1; i < _allMusic.Count; i++)
-        {
-            _allMusic[i].volume = _sliderButtonsMusic.value;
-        }
-    }
-
-    public void ChangeVolumeBackgroundMusic()
-    {
-        _backgroundMusic.volume = _sliderBackgroundMusic.value;
+        audioSource.Play();
     }
 }
