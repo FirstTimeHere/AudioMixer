@@ -10,10 +10,8 @@ public class SliderChanger : MonoBehaviour
 
     private Slider _slider;
 
-    private float _minValue = 0f;
     private float _minChangeValue = 0.3f;
     private float _maxChangeValue = 0.6f;
-    private float _maxValue = 1f;
 
     private void Awake()
     {
@@ -27,11 +25,11 @@ public class SliderChanger : MonoBehaviour
 
     private void ChangeSprite()
     {
-        if (_slider.value == _minValue || _slider.value <= _minChangeValue)
+        if (_slider.value <= _minChangeValue)
             _slider.image.sprite = _spriteMinValue;
         else if (_slider.value >= _minChangeValue && _slider.value <= _maxChangeValue)
             _slider.image.sprite = _spriteDefaultValue;
-        else if (_slider.value >= _maxChangeValue || _slider.value == _maxValue)
+        else if (_slider.value >= _maxChangeValue)
             _slider.image.sprite = _spriteMaxValue;
     }
 }

@@ -215,19 +215,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: ChangeVolumeBackgroundMusic
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 134219357}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &134219358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,8 +228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840187662b81eea478e81ea9b9991098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundColorBegin: {r: 1, g: 1, b: 1, a: 1}
-  backgroundColorEnd: {r: 1, g: 0.5508793, b: 0, a: 1}
+  _backgroundColorBegin: {r: 1, g: 0.66513133, b: 0, a: 1}
+  _backgroundColorEnd: {r: 1, g: 0, b: 0, a: 1}
   _fill: {fileID: 1646453132}
   _slider: {fileID: 134219357}
 --- !u!114 &134219359
@@ -855,19 +843,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 392366549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: ClickButtonOnOff
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &392366549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1272,19 +1248,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 549597947}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: PlayAudioButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 864462853}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &549597947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1917,19 +1881,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 770565371}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: PlayAudioButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 712040614}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &770565371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2442,7 +2394,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a940ce845e5f6ba4c963f6ad0e8d2c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioMixer: {fileID: 24300002, guid: 98bc8840fdc1228438605922346522bd, type: 2}
+  _audioMixer: {fileID: -6425831501964699394, guid: 98bc8840fdc1228438605922346522bd, type: 2}
+  _buttonOnOff: {fileID: 392366548}
+  _buttonFirst: {fileID: 770565370}
+  _buttonSecond: {fileID: 549597946}
+  _buttonThird: {fileID: 1839793171}
+  _sliderAllMusic: {fileID: 1095260000}
+  _sliderButtonsMusic: {fileID: 1662658594}
+  _sliderBackgroundMusic: {fileID: 134219357}
+  _firstButtonAudio: {fileID: 712040614}
+  _secondButtonAudio: {fileID: 864462853}
+  _thirdButtonAudio: {fileID: 1111384242}
 --- !u!1 &1095259998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,19 +2497,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: ChangeVolumeAllMusic
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1095260000}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1095260001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2575,8 +2525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840187662b81eea478e81ea9b9991098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundColorBegin: {r: 1, g: 1, b: 1, a: 1}
-  backgroundColorEnd: {r: 0.08435953, g: 1, b: 0, a: 1}
+  _backgroundColorBegin: {r: 1, g: 1, b: 1, a: 1}
+  _backgroundColorEnd: {r: 0.08787787, g: 1, b: 0, a: 1}
   _fill: {fileID: 1297399286}
   _slider: {fileID: 1095260000}
 --- !u!1 &1111384240
@@ -3466,19 +3416,7 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: ChangeVolumeButtonsMusic
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1662658594}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1762066570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3597,19 +3535,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1839793172}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1038385513}
-        m_TargetAssemblyTypeName: Music, Assembly-CSharp
-        m_MethodName: PlayAudioButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1111384242}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1839793172
 MonoBehaviour:
   m_ObjectHideFlags: 0

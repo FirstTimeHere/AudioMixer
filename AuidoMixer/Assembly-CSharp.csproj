@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\ColorBackground.cs" />
-    <Compile Include="Assets\scripts\Music.cs" />
+    <Compile Include="Assets\scripts\MusicMixer.cs" />
     <Compile Include="Assets\scripts\SliderChanger.cs" />
   </ItemGroup>
   <ItemGroup>
