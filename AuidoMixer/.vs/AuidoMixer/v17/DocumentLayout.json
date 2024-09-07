@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|e:\\github\\audio mixer\\audiomixer\\auidomixer\\assets\\scripts\\musicmixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\slidervaluechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidervaluechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\colorbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\audiobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\colorsliderfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorsliderfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\sliderchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sliderchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\musicmixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|e:\\github\\audio mixer\\audiomixer\\auidomixer\\assets\\scripts\\parametrmixernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parametrmixernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParametrMixerNames.cs",
+              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ParametrMixerNames.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ParametrMixerNames.cs",
+              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ParametrMixerNames.cs",
+              "RelativeToolTip": "Assets\\scripts\\ParametrMixerNames.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T06:14:58.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SliderValueChanger.cs",
+              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderValueChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SliderValueChanger.cs",
+              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderValueChanger.cs",
+              "RelativeToolTip": "Assets\\scripts\\SliderValueChanger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T05:53:25.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ColorBackground.cs",
-              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ColorBackground.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\ColorBackground.cs",
-              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ColorBackground.cs",
-              "RelativeToolTip": "Assets\\scripts\\ColorBackground.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "AudioButton.cs",
+              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\AudioButton.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\AudioButton.cs",
+              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\AudioButton.cs",
+              "RelativeToolTip": "Assets\\scripts\\AudioButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T05:39:05.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ColorSliderFill.cs",
+              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ColorSliderFill.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ColorSliderFill.cs",
+              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ColorSliderFill.cs",
+              "RelativeToolTip": "Assets\\scripts\\ColorSliderFill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T17:21:19.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SliderChanger.cs",
               "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderChanger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SliderChanger.cs",
               "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderChanger.cs",
               "RelativeToolTip": "Assets\\scripts\\SliderChanger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T17:46:50.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MusicMixer.cs",
               "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\MusicMixer.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\MusicMixer.cs",
               "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\MusicMixer.cs",
               "RelativeToolTip": "Assets\\scripts\\MusicMixer.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAmwBkAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T16:08:17.511Z",
               "EditorCaption": ""

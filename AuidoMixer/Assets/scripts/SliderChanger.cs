@@ -16,20 +16,26 @@ public class SliderChanger : MonoBehaviour
     private void Awake()
     {
         _slider = GetComponent<Slider>();
+        _slider.image.sprite = _spriteMaxValue;
     }
 
-    private void Update()
+    protected void OnEnable()
     {
-        ChangeSprite();
+        _slider.onValueChanged.AddListener(ChangeSprite);
     }
 
-    private void ChangeSprite()
+    protected void OnDisable()
     {
-        if (_slider.value <= _minChangeValue)
+        _slider.onValueChanged.RemoveListener(ChangeSprite);
+    }
+
+    private void ChangeSprite(float value)
+    {
+        if (value <= _minChangeValue)
             _slider.image.sprite = _spriteMinValue;
-        else if (_slider.value >= _minChangeValue && _slider.value <= _maxChangeValue)
+        else if (value >= _minChangeValue && value <= _maxChangeValue)
             _slider.image.sprite = _spriteDefaultValue;
-        else if (_slider.value >= _maxChangeValue)
+        else if (value >= _maxChangeValue)
             _slider.image.sprite = _spriteMaxValue;
     }
 }

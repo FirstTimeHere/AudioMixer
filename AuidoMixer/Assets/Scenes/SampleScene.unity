@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 134219357}
   - component: {fileID: 134219358}
   - component: {fileID: 134219359}
+  - component: {fileID: 134219360}
   m_Layer: 5
   m_Name: Slider background music
   m_TagString: Untagged
@@ -228,8 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840187662b81eea478e81ea9b9991098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _backgroundColorBegin: {r: 1, g: 0.66513133, b: 0, a: 1}
-  _backgroundColorEnd: {r: 1, g: 0, b: 0, a: 1}
+  _sliderFillBegin: {r: 1, g: 0.6044756, b: 0, a: 1}
+  _sliderFillEnd: {r: 1, g: 0, b: 0, a: 1}
   _fill: {fileID: 1646453132}
   _slider: {fileID: 134219357}
 --- !u!114 &134219359
@@ -247,6 +248,21 @@ MonoBehaviour:
   _spriteMinValue: {fileID: 21300000, guid: dccea43985c07f440a3ce2c1bb3410a4, type: 3}
   _spriteDefaultValue: {fileID: 21300000, guid: 84cb891274d33f44281cbcaf62063d1e, type: 3}
   _spriteMaxValue: {fileID: 21300000, guid: 16fea0070c8ef52499e866b3637b8607, type: 3}
+--- !u!114 &134219360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134219355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35d5ca00e2ea5b4da39be6354415c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: -6425831501964699394, guid: 98bc8840fdc1228438605922346522bd, type: 2}
+  _slider: {fileID: 134219357}
+  _parametrName: 1
 --- !u!1 &146927741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1194,7 @@ GameObject:
   - component: {fileID: 549597948}
   - component: {fileID: 549597947}
   - component: {fileID: 549597946}
+  - component: {fileID: 549597949}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -1287,6 +1304,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549597944}
   m_CullTransparentMesh: 1
+--- !u!114 &549597949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549597944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3583453ec1c88ae47aee2d67a9435388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicButton: {fileID: 549597946}
+  _audio: {fileID: 864462853}
 --- !u!1 &595420794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1842,7 @@ GameObject:
   - component: {fileID: 770565372}
   - component: {fileID: 770565371}
   - component: {fileID: 770565370}
+  - component: {fileID: 770565373}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -1920,6 +1952,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770565368}
   m_CullTransparentMesh: 1
+--- !u!114 &770565373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770565368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3583453ec1c88ae47aee2d67a9435388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicButton: {fileID: 770565370}
+  _audio: {fileID: 712040614}
 --- !u!1 &801176928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,15 +2442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioMixer: {fileID: -6425831501964699394, guid: 98bc8840fdc1228438605922346522bd, type: 2}
   _buttonOnOff: {fileID: 392366548}
-  _buttonFirst: {fileID: 770565370}
-  _buttonSecond: {fileID: 549597946}
-  _buttonThird: {fileID: 1839793171}
   _sliderAllMusic: {fileID: 1095260000}
-  _sliderButtonsMusic: {fileID: 1662658594}
-  _sliderBackgroundMusic: {fileID: 134219357}
-  _firstButtonAudio: {fileID: 712040614}
-  _secondButtonAudio: {fileID: 864462853}
-  _thirdButtonAudio: {fileID: 1111384242}
 --- !u!1 &1095259998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,6 +2455,7 @@ GameObject:
   - component: {fileID: 1095260000}
   - component: {fileID: 1095260001}
   - component: {fileID: 1095260002}
+  - component: {fileID: 1095260003}
   m_Layer: 5
   m_Name: SliderAllMusic
   m_TagString: Untagged
@@ -2525,10 +2564,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 840187662b81eea478e81ea9b9991098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _backgroundColorBegin: {r: 1, g: 1, b: 1, a: 1}
-  _backgroundColorEnd: {r: 0.08787787, g: 1, b: 0, a: 1}
+  _sliderFillBegin: {r: 1, g: 1, b: 1, a: 1}
+  _sliderFillEnd: {r: 0.3020805, g: 1, b: 0, a: 1}
   _fill: {fileID: 1297399286}
   _slider: {fileID: 1095260000}
+--- !u!114 &1095260003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095259998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35d5ca00e2ea5b4da39be6354415c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: -6425831501964699394, guid: 98bc8840fdc1228438605922346522bd, type: 2}
+  _slider: {fileID: 1095260000}
+  _parametrName: 3
 --- !u!1 &1111384240
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,6 +3391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662658593}
   - component: {fileID: 1662658594}
+  - component: {fileID: 1662658595}
   m_Layer: 5
   m_Name: Slider buttons music
   m_TagString: Untagged
@@ -3417,6 +3472,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1662658595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662658592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35d5ca00e2ea5b4da39be6354415c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mixer: {fileID: -6425831501964699394, guid: 98bc8840fdc1228438605922346522bd, type: 2}
+  _slider: {fileID: 1662658594}
+  _parametrName: 2
 --- !u!1 &1762066570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,6 +3535,7 @@ GameObject:
   - component: {fileID: 1839793173}
   - component: {fileID: 1839793172}
   - component: {fileID: 1839793171}
+  - component: {fileID: 1839793174}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -3574,6 +3645,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839793169}
   m_CullTransparentMesh: 1
+--- !u!114 &1839793174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839793169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3583453ec1c88ae47aee2d67a9435388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicButton: {fileID: 1839793171}
+  _audio: {fileID: 1111384242}
 --- !u!1 &1888668804
 GameObject:
   m_ObjectHideFlags: 0
