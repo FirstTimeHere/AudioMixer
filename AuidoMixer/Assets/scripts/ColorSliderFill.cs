@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class ColorSliderFill : MonoBehaviour
 {
-    [SerializeField] private Color _sliderFillBegin;
-    [SerializeField] private Color _sliderFillEnd;
+    [SerializeField] private Color _fillBegin;
+    [SerializeField] private Color _fillEnd;
 
     [SerializeField] private Image _fill;
 
@@ -27,6 +27,6 @@ public class ColorSliderFill : MonoBehaviour
 
     private void ChangeColor(float sliderValue)
     {
-        _fill.color = Color.Lerp(_sliderFillBegin, _sliderFillEnd, sliderValue);
+        _fill.color = Color.Lerp(_fillBegin, _fillEnd, sliderValue);
     }
 }

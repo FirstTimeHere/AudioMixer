@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|e:\\github\\audio mixer\\audiomixer\\auidomixer\\assets\\scripts\\colorsliderfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorsliderfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\slidertransitionspritechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidertransitionspritechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\slidervaluechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidervaluechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,19 +19,11 @@
       "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\colorsliderfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\colorsliderfill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\sliderchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sliderchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\musicmixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmixer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|e:\\github\\audio mixer\\audiomixer\\auidomixer\\assets\\scripts\\parametrmixernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\assets\\scripts\\parametrmixernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24BC8F87-9C94-7124-88D9-3A2D17D6FBAF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parametrmixernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "Assets\\scripts\\ParametrMixerNames.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T06:14:58.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T06:14:58.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SliderValueChanger.cs",
               "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderValueChanger.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SliderValueChanger.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "Assets\\scripts\\SliderValueChanger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T05:53:25.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T05:53:25.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AudioButton.cs",
               "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\AudioButton.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\AudioButton.cs",
@@ -72,34 +70,32 @@
               "RelativeToolTip": "Assets\\scripts\\AudioButton.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T05:39:05.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T05:39:05.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ColorSliderFill.cs",
               "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ColorSliderFill.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ColorSliderFill.cs",
               "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\ColorSliderFill.cs",
               "RelativeToolTip": "Assets\\scripts\\ColorSliderFill.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T17:21:19.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SliderChanger.cs",
-              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderChanger.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SliderChanger.cs",
-              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderChanger.cs",
-              "RelativeToolTip": "Assets\\scripts\\SliderChanger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "SliderTransitionSpriteChanger.cs",
+              "DocumentMoniker": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderTransitionSpriteChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SliderTransitionSpriteChanger.cs",
+              "ToolTip": "E:\\GitHub\\Audio Mixer\\AudioMixer\\AuidoMixer\\Assets\\scripts\\SliderTransitionSpriteChanger.cs",
+              "RelativeToolTip": "Assets\\scripts\\SliderTransitionSpriteChanger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:46:50.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T17:46:50.443Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Assets\\scripts\\MusicMixer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T16:08:17.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T16:08:17.511Z"
             }
           ]
         }

@@ -356,7 +356,7 @@
 "Assets/scripts/ColorSliderFill.cs"
 "Assets/scripts/MusicMixer.cs"
 "Assets/scripts/ParametrMixerNames.cs"
-"Assets/scripts/SliderChanger.cs"
+"Assets/scripts/SliderTransitionSpriteChanger.cs"
 "Assets/scripts/SliderValueChanger.cs"
 -langversion:9.0
 /deterministic
